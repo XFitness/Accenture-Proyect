@@ -1,6 +1,4 @@
 # Accenture-Proyect
-Proyecto Web para Accenture
-
 Xfitness: 	
 
 	Hi, this is our proyect 
