@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+/* AUTOR FRANCISCO */
+
+*{ padding:0px; margin:0px; outline: 0px solid #fff !important;}
+
+a { text-decoration: none !important ;}
+
+
+@rosa: #FD9566;
+@grisOscuro: #3E454C;
+@blanco: #fff;
+@gris: #AAAAAA;
+@rosaOscuro: #FF5342;
+@negro: #000;
+
+
+
+
+.bg-degradado( @degradado: linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%) ){
+		  
+		  background: -webkit-@degradado;
+		  background: -moz-@degradado;
+		  background: -ms-@degradado;
+		  background: -o-@degradado;
+			
+        }
+
+.radio( @radio: 100% ){
+						-webkit-border-radius: @radio;
+						-moz-border-radius: @radio;
+						-ms-border-radius: @radio;
+						-o-border-radius: @radio;
+						border-radius: @radio;
+	
+                     }
+
+
+.sec{
+	margin-top: 40px;
+}
+.texto{
+
+	font-size: 40px;
+}
+.orange{
+	color:@rosaOscuro; 
+	margin-top: -20px;
+}
+form{
+	width: 500px;
+	
+	display: block;
+	right: 200px;
+	input{
+	margin: 10px 0px;
+	width:275px;
+	}
+	
+}
+.lastInput{
+	display: inline-block;
+	width: 70px;
+	height: 40px;
+	background: @rosaOscuro;
+	border:none;
+	margin-left: 8px;
+	color: white;
+}
+#contactInfo{
+	margin-top: 30%;
+	color:gray;
+}
+
+
+
+
+
+
+

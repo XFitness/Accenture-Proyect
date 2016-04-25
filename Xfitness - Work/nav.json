@@ -1,0 +1,11 @@
+
+
+{
+	"<span class='glyphicon glyphicon-home'></span>" : "index.html",
+
+	"About Us" : "about.html",
+	"Training" : "training.html",
+	"Gallery" : "galery.html",
+	"Blog" : "blog.html",
+	"Find Us" : "contact.html"
+}
