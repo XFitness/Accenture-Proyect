@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* AUTOR JOSÉ PABLO SOLÍS MURILLO */
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: 0px solid #fff !important;
+}
+a {
+  text-decoration: none !important ;
+}
+body {
+  overflow-x: hidden;
+}
+#demo b {
+  color: #FF7F66;
+}
+#fondo-html {
+  background: -webkit- linear-gradient(to top, #FFFFFF 1%, #EAEBED 100%);
+  background: -moz- linear-gradient(to top, #FFFFFF 1%, #EAEBED 100%);
+  background: -ms- linear-gradient(to top, #FFFFFF 1%, #EAEBED 100%);
+  background: -o- linear-gradient(to top, #FFFFFF 1%, #EAEBED 100%);
+}
+#planes h5 {
+  color: #3E454C;
+  font-size: 15px;
+  margin-bottom: -19px;
+}
+#planes h3 {
+  color: #FD9566;
+}
+#planes p {
+  color: #AAAAAA;
+  font-size: 12px ;
+  background: none;
+  padding: 0;
+}
+#slider-home {
+  margin-bottom: 80px;
+}
+#slider-home ol {
+  margin-left: 0%;
+}
+#slider-home a {
+  background: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
+  margin-left: ;
+  position: relative !important;
+}
+#slider-home a span {
+  background: -webkit- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  background: -moz- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  background: -ms- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  background: -o- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  padding: 5px ;
+}
+#slider-home a span:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+#slider-tx {
+  position: absolute;
+  margin: 57px;
+}
+#slider-tx h2 {
+  color: #FD9566;
+  margin: -6px 0px 4% 0px;
+}
+#slider-tx buttom {
+  background: -webkit- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  background: -moz- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  background: -ms- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  background: -o- linear-gradient(to bottom, #4D565F 10%, #3B424A 100%);
+  padding: 6px ;
+  color: #fff;
+  font-size: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+#view-all-gallery {
+  padding: 38px 0px;
+}
+#view-all-gallery a {
+  color: #fff;
+  cursor: default;
+  background: -webkit- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -moz- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -ms- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -o- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  padding: 15px 10px 8px 0px ;
+  margin-right: 5px ;
+  font-size: 10px;
+}
+#view-all-gallery span {
+  background: -webkit- linear-gradient(to bottom, #4D565E 0%, #3E454C 100%);
+  background: -moz- linear-gradient(to bottom, #4D565E 0%, #3E454C 100%);
+  background: -ms- linear-gradient(to bottom, #4D565E 0%, #3E454C 100%);
+  background: -o- linear-gradient(to bottom, #4D565E 0%, #3E454C 100%);
+  padding: 10px 5px 10px 10px   ;
+  margin-right: 9px;
+  font-size: 15px;
+}
+#view-all-gallery span:hover {
+  cursor: pointer;
+}
+#gallery {
+  margin-bottom: 5%;
+}
+#gallery img {
+  padding: 8px ;
+  margin: 0 auto;
+  max-width: 300px;
+}
+#gallery img:hover {
+  opacity: 0.8;
+  background: rgba(0, 0, 0, 0.1);
+}
+#gallery .modal {
+  text-align: center;
+}
+#gallery .modal span {
+  cursor: pointer;
+  color: #fff ;
+  position: absolute;
+  margin: 10% 0px 0px -24px;
+}
+#gallery .modal img {
+  margin: 0 auto ;
+  margin-top: 20% ;
+}
+#our-fitness h2 {
+  color: #FD9566;
+  margin-bottom: 40px;
+}
+#our-fitness h2 span {
+  color: #3E454C;
+}
+#our-fitness h5 {
+  color: #FD9566;
+}
+#our-fitness p {
+  color: #AAAAAA;
+  font-size: 12px ;
+}
+#latestEvents h2 {
+  background: #FD9566;
+  color: #fff;
+  border-bottom: 2px solid #FF5342;
+  display: inline-block;
+  padding: 8px 20px;
+  margin: 5px 0px 5px 0px ;
+}
+#latestEvents h3 {
+  color: #FD9566;
+  padding-bottom: 40px ;
+}
+#latestEvents h3 span {
+  color: #3E454C;
+  font-size: 27px;
+}
+#latestEvents #treinta {
+  margin-top: 60% !important ;
+}
+#latestEvents #myClearfix {
+  padding: 19px 0px;
+  opacity: 0;
+}
+#latestEvents p {
+  background: #FF5342;
+  display: inline-block;
+  padding: 5px 21px 8px 23px;
+  margin-top: -4px;
+  color: #fff;
+}
+#latestEvents h5 {
+  color: #FD9566;
+}
+#latestEvents #lorem-p p {
+  color: #AAAAAA;
+  font-size: 12px ;
+  background: none;
+  padding: 0;
+}
+#footer {
+  margin-top: 60px;
+  color: #AAAAAA;
+}
+#footer .phone {
+  font-size: 10px !important;
+}
+#footer img {
+  margin-left: 100%;
+}
+#up {
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+/* EDITEMOS BOOTSTRAP */
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: 1;
+}
