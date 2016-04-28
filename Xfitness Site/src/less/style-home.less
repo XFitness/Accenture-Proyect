@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+/* Author - Index :  José Solís Murillo         */
+
+
+*{ padding:0px; margin:0px; outline: 0px solid #fff ;}
+
+a { text-decoration: none ;}
+
+
+@rosa: #FD9566;
+@grisOscuro: #3E454C;
+@blanco: #fff;
+@gris: #AAAAAA;
+@rosaOscuro: #FF5342;
+@negro: #000;
+
+
+
+
+.bg-degradado( @degradado: linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%) ){
+		  
+		  background: -webkit-@degradado;
+		  background: -moz-@degradado;
+		  background: -ms-@degradado;
+		  background: -o-@degradado;
+			
+        }
+
+.radio( @radio: 100% ){
+						-webkit-border-radius: @radio;
+						-moz-border-radius: @radio;
+						-ms-border-radius: @radio;
+						-o-border-radius: @radio;
+						border-radius: @radio;
+	
+                     }
+
+
+
+body { overflow-x:hidden; } 
+
+
+
+
+#home-container {
+	
+				#gallery-title { b { color: #FF7F66; } }
+
+
+
+				.fondo-html { .bg-degradado(linear-gradient(to top, #FFFFFF -10%, #C6C6C6 100%)); }
+
+
+
+
+
+
+
+
+				#plans {   
+							
+							
+
+							h5  { color: @grisOscuro; font-size: 15px; margin-bottom: 3px;}
+
+							h3  { color: @rosa; margin-top: 0px; }
+
+							p   { color: @gris; font-size: 12px ; background: none; padding:0; }
+
+
+
+
+				         }
+
+
+
+				#slider-home {	margin-bottom: 80px;
+								
+								ol { margin-left:0%; }
+
+								a { background: none;
+								    cursor: pointer; 
+								    color: @blanco;
+								    font-size: 25px;
+								    
+
+									    span { .bg-degradado(linear-gradient(to bottom, #4D565F 10%, #3B424A 100%));
+									           padding: 5px ;
+									         }
+
+									    span:hover { background: rgba(0,0,0,0.5); }
+
+
+								  }
+
+
+
+								 
+
+				             }
+
+
+
+				#slider-tx { position: absolute; 
+							/* I use this absolute for positioning the text in front of the slider */
+
+							 margin: 57px;
+
+
+							 h3 { margin-bottom: 0px; }
+
+
+				             h2 { color: @rosa;
+				             	  margin: 1px 0px 4% 0px;
+
+				                }
+
+				             buttom { .bg-degradado(linear-gradient(to bottom, #4D565F 10%, #3B424A 100%));
+								           padding: 6px ;
+								           color: @blanco;
+								           font-size:10px;
+								           margin-left:5px;
+								           cursor:pointer;
+
+								    }
+
+
+				 
+					       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+				#view-all-gallery { padding: 38px 0px;
+
+
+									
+									a { color: #fff; cursor:default;
+										.bg-degradado;
+										padding: 15px 10px 8px 0px ;
+										margin-right: 5px ;
+										font-size: 10px;
+										text-decoration:none;
+									  }
+
+									
+									span { .bg-degradado(linear-gradient(to bottom, #4D565E 0%, #3E454C 100%));
+										   padding: 10px 5px 10px 10px   ;
+										   margin-right: 9px;
+										   font-size: 15px;
+										 }
+
+
+									span:hover { cursor: pointer; }
+
+								  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+				#gallery {	margin-bottom: 5%;
+					
+							img { padding: 8px ; margin: 0 auto; max-width:300px;}
+
+							img:hover { opacity:0.8; background: rgba(0,0,0,0.1);}
+
+
+
+							.modal { text-align: center; 
+
+									 span { cursor:pointer; color: #fff ; 
+									        position: absolute;
+
+									        /*  
+
+									        I use this position for move this objet using  
+									        the absolute and don´t edit the bootstrap, i think its better 
+
+									         */
+
+									        margin: 10% 0px 0px 0px; 
+									      }
+
+
+									 img  { margin: 0 auto ; margin-top: 20% ; }
+							       }
+
+
+
+				         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				#our-fitness {
+
+								h2 { color: @rosa; ;
+								     margin-bottom: 40px;
+
+										span { color: @grisOscuro;}
+										
+								   }
+
+
+								h5 { color: @rosa;}
+
+								p { color: @gris; font-size: 12px ;} 
+
+
+
+				   			 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				#latestEvents { 
+								
+								h2 { 
+									 background: @rosa;
+									 color: @blanco;
+									 border-bottom: 2px solid @rosaOscuro;
+									 display:inline-block;
+									 padding:8px 20px; 
+									 margin: 5px 0px 1px 0px ;
+								   }
+					
+								h3 { color: @rosa;
+									 padding-bottom: 40px ; 
+
+									  span { color: @grisOscuro;
+									  		 font-size: 27px;
+
+									       }  
+								   }
+
+
+								#treinta    { margin-top: 60%  ;}
+								#myClearfix { padding:19px 0px;  
+											  opacity:0;
+											}
+
+								p  {
+										background: @rosaOscuro ;
+										display: inline-block;
+										padding: 5px 21px 8px 23px;
+										color: @blanco;
+
+
+								   }
+
+								 h5 { color: @rosa ; }
+
+
+
+
+								 #lorem-p {  p {color: @gris; font-size: 12px ; background: none; padding:0; } 
+
+								          }
+
+
+
+				              }
+
+
+
+
+
+
+
+				#footer { margin-top: 60px;
+						  color: @gris;
+
+
+							.phone { font-size:10px }
+							img { margin-left: 100%;}
+
+				        }
+
+
+
+
+				#up { color: @blanco;
+					  background: @negro;
+					  padding:10px;
+					  .radio;
+
+				    }
+
+
+
+
+
+
+
+				
+
+
+
+
+} /* Termina style del home */
