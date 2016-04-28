@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* AUTOR Karina Durán Canelo */
+/*ORANGE*/
+/*DARK GRAY*/
+/*GRAY*/
+/* OPEN GALLERY*/
+#galery {
+  color: #FF7F66;
+  top: -20px;
+  position: relative;
+}
+#fintess {
+  color: #3E454C;
+}
+#previous {
+  color: #3E454C;
+}
+#next {
+  color: #3E454C;
+}
+.carousel-inner {
+  background-color: #fff !important;
+}
+.carousel-inner img {
+  margin: 0 auto ;
+}
+.right,
+.left {
+  background: none !important;
+}
+/*CLOSE STYLE GALLERY*/
+/* OPEN STYLE TRAINING*/
+#training {
+  /*CLOSE STYLE TRAINING*/
+  /* ABRE STYLE ABOUT*/
+  /*CLOSE ABOUT STYLE*/
+}
+#training .title-gray {
+  color: #3E454C;
+  font-size: 36px;
+  line-height: 35px;
+}
+#training .title-orange {
+  color: #FF7F66;
+  font-size: 36px;
+  line-height: 35px;
+}
+#training .images-training {
+  margin: 20px;
+}
+#training .desc-training {
+  color: #aaaaaa;
+}
+#training .titles {
+  color: #3E454C;
+}
+#training .btn-right {
+  color: #fff;
+  background: -webkit- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -moz- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -ms- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -o- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+}
+#training .btn-left {
+  color: #fff;
+  background: -webkit- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -moz- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -ms- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: -o- linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+  background: linear-gradient(to bottom, #FF9D7E 0%, #FF8C71 70%, #FF7860 100%);
+}
+#training .title-gray {
+  color: #333745;
+  font-size: 36px;
+}
+#training .title-orange {
+  color: #FF7F66;
+  font-size: 36px;
+}
+#training .trainer {
+  color: #3E454C;
+}
+#training .desc-about {
+  color: #aaaaaa;
+}
+#training .social {
+  margin: 40px;
+}
+#training .social span {
+  background: #aaaaaa;
+  padding: 8px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  color: #fff;
+  cursor: pointer;
+  margin: 6px;
+}
+#training .costumer-names {
+  color: #FF7F66;
+  font-size: 15px;
+}
+#training #footer {
+  margin-top: 60px;
+  color: #aaaaaa;
+}
+#training #footer .phone {
+  font-size: 10px !important;
+}
+#training #footer img {
+  margin-left: 100%;
+}
+#training #up {
+  color: #fff;
+  background: #000;
+  padding: 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+#to-top {
+  margin: 40px 0px;
+}

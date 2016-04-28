@@ -1,0 +1,5 @@
+
+	Dist : The final project.
+	Src  : Our Work.
+
+	- All files have in  the top of the document the name of the persone who made it.
